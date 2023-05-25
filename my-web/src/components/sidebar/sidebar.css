@@ -1,0 +1,32 @@
+.sidebar {
+  width: 150px;
+  height: 100%;
+  background-color: #191718;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+  z-index: 100;
+}
+
+.sidebar .nav__item {
+  font-weight: 700;
+  border-bottom: 1px solid #5c5c5c;
+  height: 44px;
+  padding-top: 16px;
+  cursor: pointer;
+}
+
+.sidebar a {
+  font-size: 16px;
+  margin-left: 16px;
+  color: #aaaaaa;
+}
+
+.sidebar .nav__item:hover {
+  background-color: #5c5c5c;
+}
+
+.sidebar .nav__item .nav__active {
+  color: #ffffff;
+}

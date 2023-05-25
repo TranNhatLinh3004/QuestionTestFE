@@ -1,0 +1,47 @@
+.container {
+  margin: 30px 100px 0 250px;
+}
+
+.container .image {
+  margin-left: 30rem;
+  margin-top: 20px;
+  height: 100px;
+}
+
+.container .slide {
+  background-color: #efefef;
+  text-align: center;
+  height: 15rem;
+}
+
+.container .slide .slide-text {
+  margin-left: 10rem;
+  font-size: 15px;
+  width: 55rem;
+}
+
+.content {
+  display: flex;
+  font-size: 13px;
+}
+
+.content-text:not(:first-child) {
+  margin-left: 30px;
+}
+
+.content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.img-text {
+  position: relative;
+  display: flex;
+  height: 100px;
+  width: 380px;
+}
+
+.img-text img {
+  position: relative;
+  height: 100px;
+}
