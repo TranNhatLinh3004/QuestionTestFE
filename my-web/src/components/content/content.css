@@ -1,5 +1,7 @@
 .container {
   margin: 30px 100px 0 250px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .container .image {
@@ -44,4 +46,68 @@
 .img-text img {
   position: relative;
   height: 100px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 510px;
+    height: 900px;
+  }
+  .img-text {
+    height: 100px;
+    width: 230px;
+    font-size: 12px;
+  }
+  .content h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .content-text {
+    width: 230px;
+    height: 390px;
+  }
+  .content-text .sub {
+    position: relative;
+    top: 160px;
+  }
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content-text:nth-child(3) {
+    position: relative;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 414px) {
+  .container {
+    width: 310px;
+    height: 100px;
+  }
+  .img-text {
+    height: 80px;
+    width: 180px;
+    font-size: 10px;
+  }
+  .content h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .content-text {
+    width: 200px;
+    height: 300px;
+  }
+  .content-text .sub {
+    position: relative;
+    top: 10px;
+  }
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content-text:nth-child(3) {
+    position: relative;
+    margin-left: 0px;
+  }
 }

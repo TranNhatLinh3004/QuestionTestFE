@@ -40,7 +40,7 @@ function Content(props) {
                   Pellentesque ultrices liquam egestas nunc at{" "}
                 </p>
               </div>
-              <p>
+              <p className="sub">
                 ullamcorper ultricies. Donec feugiat velit nulla, vel sodales
                 est ullamcorper id. Aenean consequat condimentum velit ut
                 tempor. Nam porta massa in metus bibendum congue. Pellentesque
